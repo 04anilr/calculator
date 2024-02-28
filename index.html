@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Beautiful Calculator</title>
+</head>
+<body>
+  <div class="calculator">
+    <div class="display">
+      <input type="text" id="result" readonly>
+    </div>
+    <div class="buttons">
+      <button onClick="appendToDisplay('/')" class="operator" id="userinputs" >÷</button>
+      <button onClick="appendToDisplay('*')" class="operator"  id="userinputs">x</button>
+      <button onClick="clearDisplay('C')" id="clear" >C</button>
+      <button onClick="appendToDisplay(7)" id="userinputs" >7</button>
+      <button onClick="appendToDisplay(8)" id="userinputs" >8</button>
+      <button onClick="appendToDisplay(9)" id="userinputs">9</button>
+      <button onClick="appendToDisplay('-')" id="userinputs" class="operator">-</button>
+      <button onClick="appendToDisplay(4)"  id="userinputs">4</button>
+      <button onClick="appendToDisplay(5)" id="userinputs">5</button>
+      <button onClick="appendToDisplay(6)" id="userinputs">6</button>
+      <button onClick="appendToDisplay('+')" id="userinputs" class="operator">+</button>
+      <button onClick="appendToDisplay(1)" id="userinputs" >1</button>
+      <button onClick="appendToDisplay(2)" id="userinputs">2</button>
+      <button onClick="appendToDisplay(3)" id="userinputs">3</button>
+      <button onClick="calculate('=')" id="calc" class="operator">=</button>
+      <button onClick="appendToDisplay(0)" id="userinputs">0</button>
+      <button onClick="appendToDisplay('.')" id="userinputs">.</button>
+    </div>
+  </div>
+
+ 
+<script src="script.js"></script>
+</body>
+</html>
